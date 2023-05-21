@@ -1,2 +1,6 @@
 numpy
 matplotlib
+mmh3
+farmhash
+cityhash
+xxhash

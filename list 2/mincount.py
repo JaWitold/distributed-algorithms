@@ -91,7 +91,7 @@ def task5_a(m=5, n=1000):
         fig.savefig(f"output/task 5a m = {current_m}.png")
 
 
-def task5_b(n=100):
+def task5_b(n=1000):
     ks = [2, 3, 10, 100, 400]
     h = prepare_hash_function()
     for current_k in ks:
@@ -207,7 +207,7 @@ def task7(n = 1000):
 
 if __name__ == "__main__":
     # task5_a()
-    # task5_b()
+    task5_b()
     # task5_c()
     # task6()
-    task7()
+    # task7()

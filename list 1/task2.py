@@ -2,7 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
-REPEAT = 10000
+from environment import Environment
+
+REPEAT = 1000
+TASK = 2
 
 
 def prepare_almost_optimal_p_vec(u):
@@ -24,7 +27,7 @@ def task2case1():
 
 # Case 2: n = 2
 def task2case2():
-    u = random.randint(2, 1000)
+    u = 1000
     p_vec = prepare_almost_optimal_p_vec(u)
 
     n = 2
